@@ -15,7 +15,7 @@ def start_mern_stack():
     # Start React server
     react_process = subprocess.Popen(["npm", "start"], cwd=f"{project_path}/client", shell=True)
 
-    # Wait for the servers to start (you may need to adjust the sleep time)
+    # Wait for the servers to start
     time.sleep(20)
 
     # Open the web page in a browser
